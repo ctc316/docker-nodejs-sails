@@ -1,0 +1,9 @@
+version: '2'
+services:
+  sails:
+    container_name: sails
+    build: .
+    ports:
+     - "1337:1337"
+    volumes:
+     - ".:/srv/docker-nodejs-sails"

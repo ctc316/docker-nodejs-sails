@@ -1,0 +1,13 @@
+# Logs
+logs
+*.log
+
+.grunt
+
+# OSX
+.DS_Store
+
+# Dependency directory
+node_modules
+
+.tmp
